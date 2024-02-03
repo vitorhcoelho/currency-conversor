@@ -1,0 +1,7 @@
+{
+  "name": "currency-conversor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
