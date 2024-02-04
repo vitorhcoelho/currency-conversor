@@ -7,4 +7,4 @@ import { FormsModule } from '@angular/forms';
   imports: [CommonModule, IonicModule, FormsModule],
   declarations: [],
 })
-export class ConversorModule {}
+export class ConversorModule { }

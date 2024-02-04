@@ -7,9 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { ConversorModule } from './conversor/conversor.module';
+import { ConversorComponent } from 'src/app/conversor/conversor.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ConversorComponent],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
@@ -20,4 +21,4 @@ import { ConversorModule } from './conversor/conversor.module';
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class AppModule {}
+export class AppModule { }
